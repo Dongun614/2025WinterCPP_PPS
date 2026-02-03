@@ -5,7 +5,9 @@
 using namespace std;
 int n;
 int map[52][52]; // 빈 방, 막힌 방
+
 int visit[52][52]; // 뚫고 온 개수 저장
+
 int dx[] = {0, 0, -1, 1}; // 상하좌우
 int dy[] = {1, -1, 0, 0}; // 상하좌우
  
